@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="10up-Default">
-	<description>A base ruleset that all other 10up rulesets should extend.</description>
+<ruleset name="Plank-Default">
+	<description>A base ruleset that all other Plank rulesets should extend.</description>
 
 	<exclude-pattern>*/phpunit.xml*</exclude-pattern>
 	<exclude-pattern>*/languages/*</exclude-pattern>
