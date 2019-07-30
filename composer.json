@@ -1,5 +1,5 @@
 {
-    "name": "plank/phpcs-composer",
+    "name": "plank/wp-phpcs-composer",
     "type": "phpcodesniffer-standard",
     "version": "dev-master",
     "license": "MIT",
