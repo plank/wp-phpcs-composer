@@ -34,7 +34,7 @@
 
 	<!-- Enforce doc standards -->
 	<rule ref="WordPress-Docs">
-		<!-- Don't worry about capitolizing long lines -->
+		<!-- Don't worry about capitalizing long lines -->
 		<exclude name="Generic.Commenting.DocComment.LongNotCapital"/>
 
 		<!-- Dont need to capitalize first letter -->
@@ -57,10 +57,16 @@
 		<!-- Comment punctuation doesn't matter -->
 		<exclude name="Squiz.Commenting.FunctionComment.ParamCommentFullStop"/>
 		<exclude name="Squiz.Commenting.FunctionComment.ThrowsNoFullStop"/>
+
+		<!-- Allow shorthand array syntax -->
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+
+		<!-- Allow WP global modification -->
+		<exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited"/>
 	</rule>
 
-	<!-- Sets the minimum supported WP version to 4.7, which is over a year old. -->
-	<config name="minimum_supported_wp_version" value="4.7" />
+	<!-- Sets the minimum supported WP version to 5.2, which is over a year old. -->
+	<config name="minimum_supported_wp_version" value="5.2" />
 
 	<!-- Make missing translator comment a warning. -->
 	<rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
@@ -76,5 +82,5 @@
 	<rule ref="PHPCompatibilityWP" />
 
 	<!-- PHP version check. -->
-	<config name="testVersion" value="7.0-"/>
+	<config name="testVersion" value="7.3-"/>
 </ruleset>
