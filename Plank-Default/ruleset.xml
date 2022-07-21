@@ -59,14 +59,14 @@
 		<exclude name="Squiz.Commenting.FunctionComment.ThrowsNoFullStop"/>
 
 		<!-- Allow shorthand array syntax -->
-		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+		<exclude name="Universal.Arrays.DisallowShortArraySyntax"/>
 
 		<!-- Allow WP global modification -->
 		<exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited"/>
 	</rule>
 
-	<!-- Sets the minimum supported WP version to 5.2, which is over a year old. -->
-	<config name="minimum_supported_wp_version" value="5.2" />
+	<!-- Sets the minimum supported WP version to 5.8, which is over a year old. -->
+	<config name="minimum_supported_wp_version" value="5.8" />
 
 	<!-- Make missing translator comment a warning. -->
 	<rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
@@ -82,5 +82,5 @@
 	<rule ref="PHPCompatibilityWP" />
 
 	<!-- PHP version check. -->
-	<config name="testVersion" value="7.3-"/>
+	<config name="testVersion" value="7.4-"/>
 </ruleset>
