@@ -70,8 +70,8 @@
 		<exclude-pattern>*</exclude-pattern>
 	</rule>
 
-	<!-- Sets the minimum supported WP version to 5.8, which is over a year old. -->
-	<config name="minimum_supported_wp_version" value="5.8" />
+	<!-- Sets the minimum supported WP version to 5.9, which is over a year old. -->
+	<config name="minimum_supported_wp_version" value="5.9" />
 
 	<!-- Make missing translator comment a warning. -->
 	<rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
