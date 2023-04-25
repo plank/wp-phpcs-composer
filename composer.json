@@ -1,7 +1,7 @@
 {
     "name": "plank/wp-phpcs-composer",
     "type": "phpcodesniffer-standard",
-    "version": "dev-master",
+    "version": "dev-2023",
     "license": "MIT",
     "require": {
         "dealerdirect/phpcodesniffer-composer-installer": "*",
@@ -13,8 +13,12 @@
     "authors": [
         {
             "name": "Dave Kellam",
-            "email": "dave@plankdesign.com"
-        }
+            "email": "dave.kellam@plankdesign.com"
+        },
+        {
+          "name": "Christina Garofalo",
+          "email": "christina.garofalo@plankdesign.com"
+      }
     ],
     "scripts": {
       "config-cs": [
