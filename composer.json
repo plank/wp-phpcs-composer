@@ -1,7 +1,7 @@
 {
     "name": "plank/wp-phpcs-composer",
     "type": "phpcodesniffer-standard",
-    "version": "dev-2023",
+    "version": "dev-testing",
     "license": "MIT",
     "require": {
         "dealerdirect/phpcodesniffer-composer-installer": "*",
