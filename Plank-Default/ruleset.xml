@@ -65,8 +65,8 @@
 		<exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited"/>
 	</rule>
 
-	<!-- Sets the minimum supported WP version to 5.8, which is over a year old. -->
-	<config name="minimum_supported_wp_version" value="5.8" />
+	<!-- Sets the minimum supported WP version to 6.2, which is over a year old. -->
+	<config name="minimum_wp_version" value="6.2" />
 
 	<!-- Make missing translator comment a warning. -->
 	<rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
