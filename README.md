@@ -6,7 +6,7 @@ Composer library to provide drop in installation and configuration of [WPCS](htt
 Install the library via Composer:
 
 ```bash
-$ composer require --dev plank/wp-phpcs-composer:master
+$ composer require --dev plank/wp-phpcs-composer:main
 ```
 
 That's it!
