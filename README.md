@@ -37,12 +37,12 @@ $ composer run lint
 
 ### Continuous Integration
 
-PHPCS Configuration plays nicely with Continuous Integration solutions. Out of the box, the library loads the `Plank-Default` ruleset, and checks for syntax errors for PHP 7 or higher.
+PHPCS Configuration plays nicely with Continuous Integration solutions. Out of the box, the library loads the `Plank-Default` ruleset, and checks for syntax errors for PHP 8 or higher.
 
-To override the default PHP version check, set the `--runtime-set testVersion 7.0-` configuration option. Example for PHP version 7.2 and above:
+To override the default PHP version check, set the `--runtime-set testVersion 8.0-` configuration option. Example for PHP version 8.2 and above:
 
 ```bash
-$ ./vendor/bin/phpcs --runtime-set testVersion 7.2-
+$ ./vendor/bin/phpcs --runtime-set testVersion 8.2-
 ```
 
 See more [information about specifying PHP version](https://github.com/PHPCompatibility/PHPCompatibility#sniffing-your-code-for-compatibility-with-specific-php-versions).
