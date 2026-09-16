@@ -68,6 +68,11 @@
 	<!-- Sets the minimum supported WP version to 7.0 -->
 	<config name="minimum_wp_version" value="7.0" />
 
+	<!-- Disallow long array syntax -->
+	<rule ref="Generic.Arrays.DisallowShortArraySyntax.Found">
+		<type>warning</type>
+	</rule>
+
 	<!-- Make missing translator comment a warning. -->
 	<rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
 		<type>warning</type>
