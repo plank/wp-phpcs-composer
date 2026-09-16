@@ -69,7 +69,7 @@
 	<config name="minimum_wp_version" value="7.0" />
 
 	<!-- Disallow long array syntax -->
-	<rule ref="Generic.Arrays.DisallowLongArraySyntax.found">
+	<rule ref="Generic.Arrays.DisallowLongArraySyntax.Found">
 		<type>warning</type>
 	</rule>
 
